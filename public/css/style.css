@@ -1,0 +1,14 @@
+@import 'normalize.css';
+
+.container {
+    margin: 10em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    flex-basis: 50% ;
+}

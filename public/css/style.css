@@ -1,7 +1,8 @@
 @import 'normalize.css';
 
 .container {
-    margin: 10em;
+    margin: 2em 10em;
+
 }
 
 .header {
@@ -11,4 +12,17 @@
 
 .header__title {
     flex-basis: 50% ;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.team__card {
+    width: 200px;
+}
+
+.team__card img {
+    width: 200px;
 }
